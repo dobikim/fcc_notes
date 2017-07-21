@@ -1,0 +1,21 @@
+Git
+
+git init : make a git directory
+-> add file , add file2
+
+git add 'file' : add the file -> adding file is changed status to staged.
+
+git status
+-> 1 staged 1 unstaged
+
+git commit -m 'message'
+
+git log
+-> 1 commit + commit id
+
+git checkout 'id number' : you can change that include the id version
+-> it it group of commit
+
+git branch 'branch name'
+
+git checkout branch
