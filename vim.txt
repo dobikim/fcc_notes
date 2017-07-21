@@ -1,0 +1,41 @@
+Vim
+
+1. Insert Mode:
+
+a: insert into the next character, then change normal mode to insert mode
+A: go to end of the line, then change normal mode to insert mode
+o: insert into the down line, then change normal mode to insert mode
+O: insert into the upper line, then change normal mode to insert mode
+i: current character, then change normal mode to insert mode
+I: go to front line, then change normal mode to insert mode
+
+2. Normal Mode:
+
+{ : go to previous paragraph
+} : go to next paragraph
+$ : go to end of the line
+0 : go to front of the line
+w : go to next word
+b : go to previous word
+#G : go to # number line
+gg : go to front of the line
+GG : go to end of the line
+u : undo (like window ctrl+z)
+/word -> n: next word, N: previous word -> wc: change the word, then if I input the word, it change
+dd : cut the line // #dd: #number cut
+yy : copy the line // #yy: #number copy
+p : paste copy one
+x : delete one character
+
+di" : "contents" <- delete between " " all contents -> insert mode
+di( : (contents) <- delete between () all contents
+da" : delete around ""
+dit : delete inside tag
+cat : change around tag
+cit : change inside tag 
+
+h : left arrow
+j : down arrow
+k : up arrow
+l : right arrow
+
