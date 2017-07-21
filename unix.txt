@@ -1,0 +1,12 @@
+Unix Command
+
+cd : change directory
+. / .. : present path / previous path
+mkdir : make directory
+cat : make the file
+touch : read the file
+cp from to : copy
+mv from to : move
+tab : it automatically complete the word
+grep 'word' : it select the all 'word'
+| : This is pipe -> it is connect between commands
