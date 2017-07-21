@@ -19,3 +19,19 @@ git checkout 'id number' : you can change that include the id version
 git branch 'branch name'
 
 git checkout branch
+
+git remote -v
+
+git remote add o 'repository url'
+
+git push o master
+
+git checkout -b 'branch name'
+
+-> update the git.txt
+
+git add git.txt
+
+git commit -m 'message'
+
+git push o 'branch name'
